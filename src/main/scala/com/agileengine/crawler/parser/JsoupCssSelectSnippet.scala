@@ -7,6 +7,10 @@ import org.jsoup.select.Elements
 
 import scala.util.Try
 
+/**
+  * Object for finding elements by query.
+  * @author AgileEngine snippet
+  */
 object JsoupCssSelectSnippet {
 
   // Jsoup requires an absolute file path to resolve possible relative paths in HTML,
@@ -15,7 +19,7 @@ object JsoupCssSelectSnippet {
   //val cssQuery = "div[id=\"success\"] button[class*=\"btn-primary\"]"
 
   /**
-    * Finds base element by id exact match.
+    * Find base element by id exact match.
     *
     * @param htmlFile  input file to analyze.
     * @param cssQuery css query to get elements from input file.

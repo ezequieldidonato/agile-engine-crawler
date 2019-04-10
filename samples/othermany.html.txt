@@ -1,15 +1,15 @@
 Button analysis listed from the highest score to be the right one to the lowest.
 
 
-tag: a id:  classAtt: Set(btn) href:  text: Make everything OK score: 1
-Path to element: 
+tag: a, id: , classAtt: Set(btn, btn-sucess), href: #check-and-ok, text: Make everything OK, score: 5
+Path to element: html > body > div.panel > div.panel-body > a.btn.btn-sucess:nth-child(2)
 
-tag: a id:  classAtt: Set(btn, btn-danger) href: #ok text: Brake everyone's OK score: 1
-Path to element: 
+tag: a, id: , classAtt: Set(btn), href: , text: Make everything OK, score: 4
+Path to element: html > body > div.panel > a.btn
 
-tag: a id:  classAtt: Set(btn, btn-sucess) href: #check-and-ok text: Make everything OK score: 1
-Path to element: 
+tag: a, id: , classAtt: Set(btn, btn-sucess), href: #ok, text: Another Make OK, score: 4
+Path to element: html > body > div.panel > div.panel-body > a.btn.btn-sucess:nth-child(3)
 
-tag: a id:  classAtt: Set(btn, btn-sucess) href: #ok text: Another Make OK score: 1
-Path to element: 
+tag: a, id: , classAtt: Set(btn, btn-danger), href: #ok, text: Brake everyone's OK, score: 3
+Path to element: html > body > div.panel > div.panel-body > a.btn.btn-danger
 

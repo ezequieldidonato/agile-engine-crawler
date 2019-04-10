@@ -9,6 +9,7 @@ import scala.util.Try
 
 /**
   * Object for finding base element by id.
+  * @author AgileEngine snippet
   */
 object JsoupFindByIdSnippet {
 
@@ -18,7 +19,7 @@ object JsoupFindByIdSnippet {
   //val targetElementId = "sendMessageButton"
 
   /**
-    * Finds base element by id exact match.
+    * Find base element by id exact match.
     * @param htmlFile input file containing base element.
     * @param targetElementId id value to search for.
     * @return a {@link Try} of {@link Element} on success.
